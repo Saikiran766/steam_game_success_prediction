@@ -1,0 +1,6 @@
+data/raw/steam_games.csv filter=lfs diff=lfs merge=lfs -text
+data/cleaned/steam_games_cleaned.csv filter=lfs diff=lfs merge=lfs -text
+data/cleaned/steam_games_targeted.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/steam_games_balanced.csv filter=lfs diff=lfs merge=lfs -text
+results/models/random_forest.joblib filter=lfs diff=lfs merge=lfs -text
+results/models/random_forest_tuned.joblib filter=lfs diff=lfs merge=lfs -text

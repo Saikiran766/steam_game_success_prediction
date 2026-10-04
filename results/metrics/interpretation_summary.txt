@@ -1,0 +1,78 @@
+Model Interpretation Summary
+============================
+
+Interpretation uses training/validation data only.
+The held-out test set is not used for feature interpretation.
+
+Primary interpretation method:
+Permutation importance using validation ROC-AUC.
+
+Supplementary interpretation:
+Logistic Regression coefficients.
+Random Forest and XGBoost impurity-based feature importance.
+
+Logistic Regression strongest positive coefficients:
+numeric__genre__Steam Trading Cards: 0.440782
+categorical__price_band_high: 0.296904
+numeric__category__THQ Nordic: 0.278310
+numeric__genre__Single-player: 0.236521
+numeric__language_count: 0.221168
+numeric__category__Paradox Interactive: 0.200281
+numeric__category__Focus Entertainment: 0.175979
+numeric__category__Devolver Digital: 0.175155
+numeric__genre__Multi-player: 0.173526
+numeric__genre__Steam Cloud: 0.168712
+
+Logistic Regression strongest negative coefficients:
+numeric__release_year: -0.694321
+numeric__category__EroticGamesClub: -0.202505
+numeric__genre__PvP: -0.158159
+categorical__price_band_low: -0.150848
+numeric__genre__VR Only: -0.104549
+numeric__Price: -0.095583
+numeric__genre__Steam Leaderboards: -0.084117
+numeric__Metacritic score: -0.082457
+numeric__price_free: -0.079240
+numeric__release_month: -0.073400
+
+Logistic Regression top validation permutation features:
+numeric__release_year: 0.086773 (std=0.002708)
+numeric__genre__Steam Trading Cards: 0.031613 (std=0.002119)
+numeric__genre__Single-player: 0.009099 (std=0.000747)
+numeric__language_count: 0.006747 (std=0.000755)
+numeric__genre__Multi-player: 0.006143 (std=0.001310)
+numeric__genre__Steam Cloud: 0.006029 (std=0.000625)
+numeric__genre__Online PvP: 0.005865 (std=0.000793)
+numeric__genre__PvP: 0.003859 (std=0.000547)
+numeric__genre__Online Co-op: 0.002839 (std=0.000826)
+numeric__genre__Steam Achievements: 0.002330 (std=0.000267)
+
+Random Forest top validation permutation features:
+numeric__release_year: 0.097429 (std=0.002152)
+numeric__genre__Steam Trading Cards: 0.042405 (std=0.002619)
+numeric__audio_language_count: 0.015068 (std=0.001418)
+numeric__genre__Steam Cloud: 0.008117 (std=0.000752)
+numeric__language_count: 0.006144 (std=0.001114)
+numeric__Price: 0.005306 (std=0.000318)
+numeric__price_log1p: 0.004837 (std=0.000373)
+numeric__genre__Steam Achievements: 0.004499 (std=0.000701)
+numeric__genre__Family Sharing: 0.004183 (std=0.000349)
+numeric__genre__Single-player: 0.001944 (std=0.000290)
+
+Xgboost top validation permutation features:
+numeric__release_year: 0.121589 (std=0.002152)
+numeric__genre__Steam Trading Cards: 0.036128 (std=0.002169)
+numeric__Price: 0.016814 (std=0.001342)
+numeric__audio_language_count: 0.015063 (std=0.001524)
+numeric__language_count: 0.006610 (std=0.000932)
+numeric__genre__Single-player: 0.005044 (std=0.000302)
+numeric__genre__Steam Cloud: 0.004501 (std=0.000605)
+numeric__genre__Online Co-op: 0.003258 (std=0.000676)
+numeric__release_month: 0.002897 (std=0.000185)
+numeric__genre__Family Sharing: 0.002007 (std=0.000359)
+
+Interpretation files are stored under:
+D:\Steam_Games_Success_Prediction\results\metrics
+
+Interpretation figures are stored under:
+D:\Steam_Games_Success_Prediction\results\figures

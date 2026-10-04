@@ -1,0 +1,41 @@
+{
+  "logistic_regression": {
+    "Accuracy": 0.6665650406504066,
+    "Precision": 0.6207811348563007,
+    "Recall": 0.8560975609756097,
+    "F1": 0.7196924391285775,
+    "ROC-AUC": 0.7864347445303721,
+    "PR-AUC": 0.8018718335023125,
+    "True Negative": 2347,
+    "False Positive": 2573,
+    "False Negative": 708,
+    "True Positive": 4212,
+    "Selected Threshold": 0.33
+  },
+  "random_forest": {
+    "Accuracy": 0.720630081300813,
+    "Precision": 0.6875756004838431,
+    "Recall": 0.808739837398374,
+    "F1": 0.7432520780797609,
+    "ROC-AUC": 0.8226215381056249,
+    "PR-AUC": 0.8337790313349012,
+    "True Negative": 3112,
+    "False Positive": 1808,
+    "False Negative": 941,
+    "True Positive": 3979,
+    "Selected Threshold": 0.4
+  },
+  "xgboost": {
+    "Accuracy": 0.7185975609756098,
+    "Precision": 0.6828148903620602,
+    "Recall": 0.8164634146341463,
+    "F1": 0.7436823104693141,
+    "ROC-AUC": 0.8242956614779562,
+    "PR-AUC": 0.836987935029456,
+    "True Negative": 3054,
+    "False Positive": 1866,
+    "False Negative": 903,
+    "True Positive": 4017,
+    "Selected Threshold": 0.38
+  }
+}

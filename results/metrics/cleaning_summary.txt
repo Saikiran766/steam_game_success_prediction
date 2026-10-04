@@ -1,0 +1,20 @@
+Rows before cleaning: 125855
+Columns before cleaning: 39
+Completely duplicated rows removed: 0
+Rows removed because AppID was missing: 0
+Rows removed because AppID was invalid: 0
+Duplicate AppID rows removed: 0
+Rows removed because Name was missing: 1
+Invalid release dates after parsing: 0
+All-missing columns removed: []
+Post-release outcome columns retained for target creation: ['Estimated owners', 'Peak CCU', 'Reviews', 'Positive', 'Negative', 'Recommendations', 'Average playtime two weeks', 'Median playtime forever', 'Median playtime two weeks']
+
+Platform values after cleaning:
+Windows: True=0, False=1, Missing=125853
+Mac: True=125810, False=44, Missing=0
+Linux: True=21719, False=104135, Missing=0
+
+Rows after cleaning: 125854
+Columns after cleaning: 39
+
+Cleaned dataset saved to: D:\Steam_Games_Success_Prediction\data\cleaned\steam_games_cleaned.csv

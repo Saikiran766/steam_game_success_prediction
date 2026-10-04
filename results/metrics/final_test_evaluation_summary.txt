@@ -1,0 +1,59 @@
+Final Test Evaluation
+=====================
+
+This is the single final evaluation on the held-out test set.
+The test set was not used for preprocessing, model fitting,
+hyperparameter selection, or threshold selection.
+
+Thresholds were selected from validation data only.
+
+logistic_regression
+-------------------
+Threshold: 0.33
+Accuracy: 0.6666
+Precision: 0.6208
+Recall: 0.8561
+F1: 0.7197
+ROC-AUC: 0.7864
+PR-AUC: 0.8019
+TN: 2347
+FP: 2573
+FN: 708
+TP: 4212
+
+random_forest
+-------------
+Threshold: 0.40
+Accuracy: 0.7206
+Precision: 0.6876
+Recall: 0.8087
+F1: 0.7433
+ROC-AUC: 0.8226
+PR-AUC: 0.8338
+TN: 3112
+FP: 1808
+FN: 941
+TP: 3979
+
+xgboost
+-------
+Threshold: 0.38
+Accuracy: 0.7186
+Precision: 0.6828
+Recall: 0.8165
+F1: 0.7437
+ROC-AUC: 0.8243
+PR-AUC: 0.8370
+TN: 3054
+FP: 1866
+FN: 903
+TP: 4017
+
+Final comparison: D:\Steam_Games_Success_Prediction\results\metrics\final_test_comparison.csv
+Detailed metrics: D:\Steam_Games_Success_Prediction\results\metrics\final_test_metrics.json
+ROC curves: D:\Steam_Games_Success_Prediction\results\figures\test_roc_curves.png
+
+Confusion matrices:
+logistic_regression: D:\Steam_Games_Success_Prediction\results\figures\logistic_regression_test_confusion_matrix.png
+random_forest: D:\Steam_Games_Success_Prediction\results\figures\random_forest_test_confusion_matrix.png
+xgboost: D:\Steam_Games_Success_Prediction\results\figures\xgboost_test_confusion_matrix.png

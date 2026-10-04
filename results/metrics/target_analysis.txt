@@ -1,0 +1,35 @@
+Steam Games Dataset - Target Analysis
+============================================================
+Rows analyzed: 125854
+Invalid owner ranges: 0
+
+Observed Estimated owners ranges:
+Estimated owners
+0 - 0                    24578
+0 - 20000                75705
+100000 - 200000           3454
+1000000 - 2000000          729
+10000000 - 20000000         51
+100000000 - 200000000        4
+20000 - 50000            11397
+200000 - 500000           2856
+2000000 - 5000000          405
+20000000 - 50000000         31
+50000 - 100000            5355
+500000 - 1000000          1155
+5000000 - 10000000         125
+50000000 - 100000000         9
+
+Threshold analysis using Estimated owners upper bound:
+ threshold_upper_bound  success_count  not_success_count  success_percentage  not_success_percentage
+                100000          14174             111680               11.26                   88.74
+                200000           8819             117035                7.01                   92.99
+                500000           5365             120489                4.26                   95.74
+               1000000           2509             123345                1.99                   98.01
+               2000000           1354             124500                1.08                   98.92
+               5000000            625             125229                0.50                   99.50
+              10000000            220             125634                0.17                   99.83
+
+Release date range:
+Earliest: 1997-06-30 00:00:00
+Latest: 2026-12-01 00:00:00

@@ -1,0 +1,27 @@
+Train / Validation / Test Split Summary
+========================================
+Random seed: 42
+
+Split ratio:
+Train = 60%
+Validation = 20%
+Test = 20%
+
+Train rows: 29517
+Validation rows: 9839
+Test rows: 9840
+
+Train class distribution:
+Not Success: 14758 (50.00%)
+Success: 14759 (50.00%)
+
+Validation class distribution:
+Not Success: 4920 (50.01%)
+Success: 4919 (49.99%)
+
+Test class distribution:
+Not Success: 4920 (50.00%)
+Success: 4920 (50.00%)
+
+The test set is held out and is not used during preprocessing, tuning,
+threshold selection, or model selection.

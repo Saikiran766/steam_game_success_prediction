@@ -1,0 +1,52 @@
+Model Training Summary
+======================
+
+Primary validation metric: ROC-AUC
+Random seed: 42
+
+Models:
+1. Majority-class baseline
+2. Logistic Regression
+3. Random Forest
+4. XGBoost
+
+The baseline is included for reference and is not counted as one of
+the three main machine-learning models.
+
+Training data is used for model fitting.
+Validation data is used for initial model comparison.
+The test set is not loaded or used in this script.
+
+Validation results:
+
+baseline
+Accuracy:  0.4999
+Precision: 0.4999
+Recall:    1.0000
+F1:        0.6666
+ROC-AUC:   0.5000
+
+logistic_regression
+Accuracy:  0.7096
+Precision: 0.7499
+Recall:    0.6290
+F1:        0.6841
+ROC-AUC:   0.7845
+
+random_forest
+Accuracy:  0.7283
+Precision: 0.7497
+Recall:    0.6855
+F1:        0.7162
+ROC-AUC:   0.8043
+
+xgboost
+Accuracy:  0.7374
+Precision: 0.7744
+Recall:    0.6699
+F1:        0.7183
+ROC-AUC:   0.8134
+
+Comparison table: D:\Steam_Games_Success_Prediction\results\metrics\validation_model_comparison.csv
+Metrics JSON: D:\Steam_Games_Success_Prediction\results\metrics\validation_metrics.json
+Validation predictions: D:\Steam_Games_Success_Prediction\results\metrics\validation_predictions.csv

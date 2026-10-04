@@ -1,0 +1,23 @@
+Preprocessing Summary
+======================
+All data-driven preprocessing is fitted on training data only.
+Validation and test data use the fitted training preprocessor.
+
+Training rows: 29517
+Validation rows: 9839
+Test rows: 9840
+
+Top Categories used: 50
+Top Genres used: 30
+
+Windows excluded because the cleaned source contains no usable values.
+User score excluded because the training split contains no observed values.
+
+Raw feature columns before transformation: 94
+Final transformed feature count: 98
+
+Train features: D:\Steam_Games_Success_Prediction\data\processed\train_features.csv
+Validation features: D:\Steam_Games_Success_Prediction\data\processed\validation_features.csv
+Test features: D:\Steam_Games_Success_Prediction\data\processed\test_features.csv
+Fitted preprocessor: D:\Steam_Games_Success_Prediction\results\models\preprocessor.joblib
+Feature names: D:\Steam_Games_Success_Prediction\results\metrics\feature_names.json

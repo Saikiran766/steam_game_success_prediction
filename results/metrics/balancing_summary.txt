@@ -1,0 +1,16 @@
+Dataset Balancing Summary
+=========================
+Random seed: 42
+
+Success available: 24598
+Not Success available: 72967
+Rows selected per class: 24598
+
+Final rows: 49196
+Final Success: 24598
+Final Not Success: 24598
+
+Balancing is performed after target definition.
+The target threshold itself is not changed to force class balance.
+
+Balanced dataset saved to: D:\Steam_Games_Success_Prediction\data\processed\steam_games_balanced.csv

@@ -1,0 +1,21 @@
+Target Definition
+=================
+Maturity cutoff: 2025-01-01
+Success owner threshold: >= 20,000 estimated owners
+
+Meaning:
+Success = game has at least the selected estimated-owner threshold.
+Not Success = game is below the selected estimated-owner threshold.
+
+Target-source field:
+Estimated owners
+
+Rows before target filtering: 125854
+Rows removed because target fields were invalid: 0
+Recent games excluded by maturity filter: 28289
+Mature games retained: 97565
+
+Success: 24598 (25.21%)
+Not Success: 72967 (74.79%)
+
+Target dataset saved to: D:\Steam_Games_Success_Prediction\data\cleaned\steam_games_targeted.csv

@@ -1,0 +1,45 @@
+Steam Games Dataset - Target and Release-Maturity Analysis
+======================================================================
+Maturity cutoff: 2025-01-01
+Total games: 125854
+Mature games: 97565
+Games on/after cutoff: 28289
+
+Owner-range distribution among mature games:
+     Estimated owners  game_count  percentage
+                0 - 0       11269       11.55
+            0 - 20000       61698       63.24
+      100000 - 200000        3343        3.43
+    1000000 - 2000000         712        0.73
+  10000000 - 20000000          48        0.05
+100000000 - 200000000           4        0.00
+        20000 - 50000       10893       11.16
+      200000 - 500000        2778        2.85
+    2000000 - 5000000         397        0.41
+  20000000 - 50000000          29        0.03
+       50000 - 100000        5138        5.27
+     500000 - 1000000        1124        1.15
+   5000000 - 10000000         123        0.13
+ 50000000 - 100000000           9        0.01
+
+Target candidates using the lower owner-range bound:
+              target_rule  success_count  not_success_count  success_percentage  not_success_percentage
+   owners_lower >= 20,000          24598              72967               25.21                   74.79
+   owners_lower >= 50,000          13705              83860               14.05                   85.95
+  owners_lower >= 100,000           8567              88998                8.78                   91.22
+  owners_lower >= 200,000           5224              92341                5.35                   94.65
+  owners_lower >= 500,000           2446              95119                2.51                   97.49
+owners_lower >= 1,000,000           1322              96243                1.35                   98.65
+owners_lower >= 2,000,000            610              96955                0.63                   99.37
+owners_lower >= 5,000,000            213              97352                0.22                   99.78
+
+Definite success counts:
+ threshold  definite_success_count  definite_success_percentage
+     20000                   24598                        25.21
+     50000                   13705                        14.05
+    100000                    8567                         8.78
+    200000                    5224                         5.35
+    500000                    2446                         2.51
+   1000000                    1322                         1.35
+   2000000                     610                         0.63
+   5000000                     213                         0.22

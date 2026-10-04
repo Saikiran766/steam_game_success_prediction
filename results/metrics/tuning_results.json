@@ -1,0 +1,77 @@
+{
+  "logistic_regression": {
+    "best_params": {
+      "C": 0.1,
+      "class_weight": null
+    },
+    "validation_metrics_at_0.50": {
+      "Accuracy": 0.7099298709218417,
+      "Precision": 0.7500605473480262,
+      "Recall": 0.6295995120959544,
+      "F1": 0.6845711759504863,
+      "ROC-AUC": 0.7844658053970253
+    },
+    "validation_metrics_at_selected_threshold": {
+      "Accuracy": 0.6666327878849476,
+      "Precision": 0.6223316912972086,
+      "Recall": 0.8475299857694654,
+      "F1": 0.7176794629023928,
+      "ROC-AUC": 0.7844658053970253
+    },
+    "selected_threshold": 0.33,
+    "threshold_selection_f1": 0.7176794629023928,
+    "best_validation_roc_auc": 0.7844658053970253
+  },
+  "random_forest": {
+    "best_params": {
+      "class_weight": null,
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 400
+    },
+    "validation_metrics_at_0.50": {
+      "Accuracy": 0.7377782294948674,
+      "Precision": 0.7782536283606948,
+      "Recall": 0.6649725553974385,
+      "F1": 0.7171672878754659,
+      "ROC-AUC": 0.8128207241871158
+    },
+    "validation_metrics_at_selected_threshold": {
+      "Accuracy": 0.7118609614798251,
+      "Precision": 0.681091414668057,
+      "Recall": 0.7967066476926205,
+      "F1": 0.7343764639745152,
+      "ROC-AUC": 0.8128207241871158
+    },
+    "selected_threshold": 0.4,
+    "threshold_selection_f1": 0.7343764639745152,
+    "best_validation_roc_auc": 0.8128207241871158
+  },
+  "xgboost": {
+    "best_params": {
+      "colsample_bytree": 0.8,
+      "learning_rate": 0.1,
+      "max_depth": 5,
+      "n_estimators": 200,
+      "subsample": 0.8
+    },
+    "validation_metrics_at_0.50": {
+      "Accuracy": 0.740319138123793,
+      "Precision": 0.7812946216087577,
+      "Recall": 0.667412075625127,
+      "F1": 0.7198772064466615,
+      "ROC-AUC": 0.8160311270219838
+    },
+    "validation_metrics_at_selected_threshold": {
+      "Accuracy": 0.7161296879764204,
+      "Precision": 0.6835290055248618,
+      "Recall": 0.8048383817849156,
+      "F1": 0.7392400336103072,
+      "ROC-AUC": 0.8160311270219838
+    },
+    "selected_threshold": 0.38,
+    "threshold_selection_f1": 0.7392400336103072,
+    "best_validation_roc_auc": 0.8160311270219838
+  }
+}

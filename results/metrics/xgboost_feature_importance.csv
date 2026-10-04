@@ -1,0 +1,99 @@
+Feature,Importance
+numeric__genre__Steam Trading Cards,0.28499353
+numeric__release_year,0.042773332
+numeric__genre__Steam Cloud,0.029641643
+numeric__genre__Online Co-op,0.025276273
+numeric__audio_language_count,0.024836048
+numeric__genre__Single-player,0.021631513
+numeric__genre__Multi-player,0.019529253
+numeric__price_log1p,0.019520847
+numeric__genre__VR Only,0.01853268
+numeric__genre__In-App Purchases,0.017640611
+numeric__genre__Family Sharing,0.015856707
+numeric__genre__Remote Play on Tablet,0.013325581
+numeric__genre__Steam Achievements,0.013077986
+numeric__price_free,0.011998091
+numeric__Price,0.011299993
+numeric__genre__Online PvP,0.011005527
+categorical__price_band_low,0.010778473
+numeric__genre__Steam Workshop,0.01041051
+numeric__category__Kagura Games,0.010046321
+numeric__genre__Tracked Controller Support,0.0099404715
+numeric__genre__Custom Volume Controls,0.009499133
+numeric__category__LTD.,0.00939694
+numeric__category__8floor,0.009138493
+numeric__category__Ltd.,0.00905677
+numeric__category__Devolver Digital,0.0086736325
+numeric__language_count,0.008404703
+numeric__genre__Co-op,0.008376766
+numeric__category__BFG Entertainment,0.008337717
+numeric__genre__Shared/Split Screen PvP,0.008191963
+numeric__Required age,0.007986984
+numeric__category__Choice of Games,0.007754616
+numeric__genre__Remote Play on TV,0.007598081
+numeric__genre__Full controller support,0.007530114
+numeric__category__Electronic Arts,0.0073855584
+numeric__genre__Remote Play Together,0.006671073
+numeric__genre__Steam Leaderboards,0.0066605615
+numeric__genre__Captions available,0.00641324
+numeric__category__Alawar Casual,0.0063931947
+numeric__category__PlayWay S.A.,0.0063629556
+numeric__category__Ziggurat,0.0062171537
+numeric__category__KOEI TECMO GAMES CO.,0.0061336714
+numeric__category__Inc.,0.0061189584
+numeric__genre__Shared/Split Screen Co-op,0.0058164387
+numeric__category__EroticGamesClub,0.0057702735
+numeric__genre__PvP,0.0055541154
+numeric__Metacritic score,0.0055404557
+numeric__category__tinyBuild,0.0054789293
+numeric__category__SA Industry,0.0053995284
+numeric__category__THQ Nordic,0.0053474316
+numeric__release_month,0.005333063
+numeric__platform_linux,0.005182544
+numeric__genre__Cross-Platform Multiplayer,0.0051391087
+numeric__category__GrabTheGames,0.0050824704
+numeric__category__Activision,0.0050579384
+numeric__tag_count,0.0050346693
+numeric__genre__Includes level editor,0.004958816
+numeric__category__Disney,0.0049515693
+numeric__genre__Shared/Split Screen,0.0048970655
+numeric__category__SEGA,0.0047771093
+numeric__category__LLC,0.004765455
+numeric__genre__Playable without Timed Input,0.0046962695
+numeric__category__HH-Games,0.0046854857
+numeric__genre__Stats,0.0046693296
+numeric__category__Slitherine Ltd.,0.00457851
+numeric__genre__Stereo Sound,0.0045085945
+numeric__category__Fulqrum Publishing,0.0044563455
+categorical__price_band_high,0.0044523133
+numeric__category__2K,0.004389928
+categorical__price_band_medium,0.0043815025
+numeric__genre__Partial Controller Support,0.0043591554
+numeric__category__BANDAI NAMCO Entertainment,0.0040382585
+numeric__category__Ltd,0.003998563
+numeric__category__Plug In Digital,0.003989692
+numeric__category__PLAYISM,0.0037207596
+numeric__category__Ubisoft,0.0036569599
+numeric__category__Square Enix,0.003606783
+numeric__category__Microids,0.0036039269
+numeric__category__Nacon,0.0035674798
+numeric__category__DigiPen Institute of Technology,0.0035638069
+numeric__category__Daedalic Entertainment,0.0035518764
+numeric__category__Strategy First,0.0035157972
+numeric__category__My Way Games,0.0034788332
+numeric__category__Conglomerate 5,0.00338141
+numeric__category__HandyGames,0.0033600125
+numeric__category__Nightdive Studios,0.0032749441
+numeric__category__Paradox Interactive,0.0029502374
+numeric__category__Bethesda Softworks,0.002949469
+numeric__category__Boogygames Studios,0.0029195684
+numeric__category__Atari,0.002595422
+numeric__platform_mac,0.0024439322
+numeric__category__Focus Entertainment,0.002150254
+numeric__Achievements,0.0
+numeric__category__Sekai Project,0.0
+numeric__category__Laush Studio,0.0
+numeric__category__ESDigital Games,0.0
+numeric__category__Artifex Mundi,0.0
+categorical__price_band_free,0.0
+categorical__price_band_premium,0.0
