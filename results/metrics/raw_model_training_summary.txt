@@ -1,0 +1,22 @@
+STEAM GAMES SUCCESS PREDICTION — RAW-FEATURE MODEL TRAINING
+====================================================================
+Input data: original train.csv and validation.csv splits.
+Compatibility processing: numeric median imputation + scaling; categorical mode imputation + ordinal encoding.
+These steps are minimal model-compatibility transformations; compare against the full preprocessing pipeline separately.
+Numeric columns: 15
+Categorical columns: 4
+Random seed: 42
+
+VALIDATION METRICS
+--------------------------------------------------------------------
+Logistic Regression: Accuracy=0.7625, Precision=0.5281, Recall=0.5436, F1=0.5358, ROC-AUC=0.7457
+Random Forest: Accuracy=0.8799, Precision=0.8332, Recall=0.6548, F1=0.7333, ROC-AUC=0.8917
+XGBoost: Accuracy=0.8797, Precision=0.8635, Recall=0.6211, F1=0.7225, ROC-AUC=0.8914
+
+NOTES
+--------------------------------------------------------------------
+- Validation data was used for evaluation; the test set was not used here.
+- Minimal ordinal encoding makes categorical fields numeric for model compatibility.
+- Ordinal encoding can impose artificial order on categories; this is a limitation of this raw-feature baseline.
+- Reuse the same split files for the preprocessed-feature experiments.
+Metrics CSV: results\metrics\raw_model_validation_metrics.csv

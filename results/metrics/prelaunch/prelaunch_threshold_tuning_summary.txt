@@ -1,0 +1,23 @@
+PRE-LAUNCH CLASSIFICATION THRESHOLD TUNING
+======================================================================
+Validation rows: 19,513
+Threshold search: 0.10 to 0.90, step 0.01
+
+BEST THRESHOLD PER MODEL BY F1-SCORE
+----------------------------------------------------------------------
+              Model  Threshold  Accuracy  Precision   Recall  F1 Score  Balanced Accuracy  ROC-AUC  Predicted Success Count
+Logistic Regression       0.40  0.626300   0.361471 0.629396  0.459211           0.627327 0.658801                     8565
+      Random Forest       0.50  0.689387   0.410725 0.534052  0.464339           0.637897 0.685961                     6396
+            XGBoost       0.24  0.670117   0.394378 0.576133  0.468236           0.638964 0.695962                     7186
+
+ALTERNATIVE: BEST PRECISION WITH RECALL >= 0.70
+----------------------------------------------------------------------
+              Model  Threshold  Accuracy  Precision   Recall  F1 Score  Balanced Accuracy  ROC-AUC  Predicted Success Count
+Logistic Regression       0.36  0.472403   0.295247 0.787965  0.429545           0.577003 0.658801                    13128
+      Random Forest       0.42  0.551530   0.324574 0.720675  0.447573           0.607597 0.685961                    10922
+            XGBoost       0.20  0.583662   0.341447 0.701565  0.459337           0.622744 0.695962                    10107
+
+IMPORTANT:
+Thresholds were selected using validation data only.
+Do not select thresholds based on test-set performance.
+A recall target of 0.70 is an illustrative operating goal; choose a target that fits the project's intended use.

@@ -1,0 +1,37 @@
+STEAM GAMES SUCCESS PREDICTION — PREPROCESSING SUMMARY
+================================================================
+Method: ColumnTransformer + median imputation/scaling for numeric features; most-frequent imputation/one-hot encoding for categorical features.
+Preprocessor was fitted on training data only.
+Maximum one-hot categories retained per categorical column: 100
+
+INPUT SPLIT SIZES
+----------------------------------------------------------------
+Train rows: 58,539
+Validation rows: 19,513
+Test rows: 19,513
+
+FEATURE TYPES
+----------------------------------------------------------------
+Numeric input columns (15): Peak CCU, Required age, Price, DiscountDLC count, Mac, Linux, Metacritic score, Positive, Negative, Score rank, Achievements, Recommendations, Average playtime two weeks, Median playtime forever, Median playtime two weeks
+Categorical input columns (4): Reviews, Windows, User score, Average playtime forever
+
+OUTPUT SHAPES (including target)
+----------------------------------------------------------------
+Train: 58,539 rows x 416 columns
+Validation: 19,513 rows x 416 columns
+Test: 19,513 rows x 416 columns
+Total missing cells after preprocessing: 0
+
+OUTPUT FILES
+----------------------------------------------------------------
+train: data\processed\train_preprocessed.csv
+validation: data\processed\validation_preprocessed.csv
+test: data\processed\test_preprocessed.csv
+Saved fitted preprocessor: data\processed\preprocessor.joblib
+
+IMPORTANT NOTES
+----------------------------------------------------------------
+- The target column 'Success' is appended after transforming predictors.
+- Unknown categories in validation/test are ignored by the fitted encoder.
+- Capping categories per field controls one-hot feature explosion.
+- The preprocessed files are intended for model experiments; keep the original split files unchanged.

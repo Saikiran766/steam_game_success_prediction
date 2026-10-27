@@ -1,0 +1,59 @@
+STEAM GAMES SUCCESS PREDICTION
+BASELINE PREPROCESSING SUMMARY
+================================================================
+Experiment: baseline preprocessed features
+Preprocessor fitted on training predictors only.
+Original predictor columns: 19
+Transformed predictor columns: 415
+Numeric columns: 15
+Categorical columns: 4
+Missing cells after preprocessing: 0
+
+NUMERIC FEATURES
+----------------------------------------------------------------
+  - Peak CCU
+  - Required age
+  - Price
+  - DiscountDLC count
+  - Mac
+  - Linux
+  - Metacritic score
+  - Positive
+  - Negative
+  - Score rank
+  - Achievements
+  - Recommendations
+  - Average playtime two weeks
+  - Median playtime forever
+  - Median playtime two weeks
+
+CATEGORICAL FEATURES
+----------------------------------------------------------------
+  - Reviews
+  - Windows
+  - User score
+  - Average playtime forever
+
+SPLIT SHAPES
+----------------------------------------------------------------
+Train: 58,539 rows x 416 columns
+Validation: 19,513 rows x 416 columns
+Test: 19,513 rows x 416 columns
+
+PREPROCESSING DETAILS
+----------------------------------------------------------------
+- Target column: Success.
+- Success is excluded from all predictor transformations.
+- Numeric features use median imputation and standard scaling.
+- Categorical features use most-frequent imputation.
+- Categorical features are one-hot encoded.
+- Unknown validation/test categories are ignored.
+- The preprocessor was fitted using training data only.
+- Baseline outputs are stored outside the prelaunch folder.
+
+OUTPUT FILES
+----------------------------------------------------------------
+data\processed\train_preprocessed.csv
+data\processed\validation_preprocessed.csv
+data\processed\test_preprocessed.csv
+data\processed\preprocessor.joblib

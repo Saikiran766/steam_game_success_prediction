@@ -1,0 +1,64 @@
+STEAM GAMES SUCCESS PREDICTION — CORRECTED BUSINESS INSIGHTS
+================================================================
+Rows analyzed: 97,565
+Overall success rate: 25.21%
+
+Important data note:
+- The observed Genres values include feature names such as Single-player and Steam Trading Cards.
+- The observed Categories values include publisher names such as MangaGamer and 8floor.
+- Therefore, Tags is used for tag/genre-like analysis; Categories is not interpreted as game category.
+- Results are descriptive associations and do not prove causation.
+- Groups with fewer than 100 games are excluded from year/tag comparisons.
+
+SUCCESS RATE BY RELEASE YEAR (minimum sample size applied)
+ release_year  games  success_rate_percent
+         2008    158                 81.65
+         2009    321                 78.82
+         2010    255                 78.04
+         2011    260                 88.85
+         2012    322                 93.48
+         2013    468                 88.25
+         2014   1523                 78.53
+         2015   2515                 61.83
+         2016   4140                 50.56
+         2017   5922                 35.75
+         2018   7461                 28.41
+         2019   7243                 25.03
+         2020   8804                 27.91
+         2021  11067                 23.93
+         2022  12288                 19.61
+         2023  14598                 15.57
+         2024  20033                 11.04
+
+SUCCESS RATE BY PRICE RANGE
+price_range  games  success_rate_percent
+       Free  19801                 19.45
+       >0–5  54295                 25.78
+      >5–10  14718                 27.69
+     >10–20   6917                 31.57
+     >20–40   1257                 33.49
+        >40    577                 11.79
+
+TOP TAGS BY SUCCESS RATE (tags may include genres, features, and descriptors)
+                  tag  games  success_rate_percent
+Massively Multiplayer   2113                 38.14
+                  RPG  16739                 33.99
+       Web Publishing    102                 33.33
+             Strategy  17937                 31.35
+            Adventure  36746                 28.71
+               Action  38168                 28.25
+         Free To Play   9153                 28.00
+           Simulation  18828                 25.71
+                Indie  65189                 25.43
+               Racing   3360                 23.81
+               Sports   4046                 22.05
+               Casual  40044                 20.12
+         Early Access   8468                 19.98
+                 Gore    257                 19.07
+            Utilities    870                 18.39
+
+PLAYER ACTIVITY BY SUCCESS GROUP
+success_group  games  median_peak_ccu  mean_peak_ccu
+  Not Success  72967             0.00           2.35
+      Success  24598             0.00         231.39
+

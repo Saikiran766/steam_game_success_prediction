@@ -1,0 +1,15 @@
+STEAM GAMES SUCCESS PREDICTION
+BEFORE-LAUNCH MODEL TRAINING SUMMARY
+================================================================
+Training data: prelaunch/train_preprocessed.csv
+Validation data: prelaunch/validation_preprocessed.csv
+Training rows: 58,539
+Validation rows: 19,513
+Predictor columns: 106
+Random seed: 42
+
+VALIDATION METRICS
+----------------------------------------------------------------
+Logistic Regression: Accuracy=0.6954, Precision=0.4123, Recall=0.4895, F1=0.4476, ROC-AUC=0.6588
+Random Forest: Accuracy=0.6894, Precision=0.4107, Recall=0.5341, F1=0.4643, ROC-AUC=0.6860
+XGBoost: Accuracy=0.7704, Precision=0.6470, Recall=0.1960, F1=0.3008, ROC-AUC=0.6960

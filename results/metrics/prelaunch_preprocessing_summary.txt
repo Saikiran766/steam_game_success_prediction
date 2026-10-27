@@ -1,0 +1,49 @@
+STEAM GAMES SUCCESS PREDICTION
+BEFORE-LAUNCH PREPROCESSING SUMMARY
+================================================================
+Experiment: prelaunch
+The explicit feature allowlist was used.
+Preprocessor was fitted on training predictors only.
+Candidate predictor columns (7):
+  - Required age
+  - Price
+  - DiscountDLC count
+  - Windows
+  - Mac
+  - Linux
+  - Achievements
+
+IMPORTANT TIMING LIMITATION
+----------------------------------------------------------------
+- Confirm that every predictor was available at the intended
+  prediction time before describing this as a strict pre-launch model.
+- The Success target represents the existing eventual-ownership
+  threshold and is not a predictor.
+
+FEATURE TYPES
+----------------------------------------------------------------
+Numeric (6): Required age, Price, DiscountDLC count, Mac, Linux, Achievements
+Categorical (1): Windows
+
+SPLIT SIZES AND OUTPUT SHAPES
+----------------------------------------------------------------
+Train: 58,539 rows x 107 columns
+Validation: 19,513 rows x 107 columns
+Test: 19,513 rows x 107 columns
+Transformed predictor columns: 106
+Total missing cells after preprocessing: 0
+
+OUTPUT FILES
+----------------------------------------------------------------
+train: data\processed\prelaunch\train_preprocessed.csv
+validation: data\processed\prelaunch\validation_preprocessed.csv
+test: data\processed\prelaunch\test_preprocessed.csv
+Fitted preprocessor: data\processed\prelaunch\preprocessor.joblib
+
+PREPROCESSING NOTES
+----------------------------------------------------------------
+- Numeric features use median imputation and standard scaling.
+- Categorical features use most-frequent imputation and one-hot encoding.
+- Unknown validation/test categories are ignored by the fitted encoder.
+- Original train/validation/test split files were not modified.
+- Outputs are stored separately to preserve baseline preprocessed files.

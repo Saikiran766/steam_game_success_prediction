@@ -1,0 +1,29 @@
+STEAM GAMES SUCCESS PREDICTION — DATA SPLIT SUMMARY
+==============================================================
+Input: data\processed\steam_games_features.csv
+Random seed: 42
+Method: stratified train/validation/test split
+Target: Success (0 = Not Success, 1 = Success)
+
+SPLIT SIZES
+--------------------------------------------------------------
+Requested proportions: 60% train / 20% validation / 20% test
+Train: 58,539 rows (60.00%) | Not Success (0): 43,780 (74.79%) | Success (1): 14,759 (25.21%)
+Validation: 19,513 rows (20.00%) | Not Success (0): 14,594 (74.79%) | Success (1): 4,919 (25.21%)
+Test: 19,513 rows (20.00%) | Not Success (0): 14,593 (74.79%) | Success (1): 4,920 (25.21%)
+Total split rows: 97,565
+Original rows: 97,565
+All rows assigned exactly once: Yes
+
+OUTPUT FILES
+--------------------------------------------------------------
+Train: data\processed\train.csv
+Validation: data\processed\validation.csv
+Test: data\processed\test.csv
+
+METHODOLOGY NOTES
+--------------------------------------------------------------
+- Stratification preserves target class proportions in each split.
+- Reuse these split files for every model and preprocessing experiment.
+- Fit imputers, encoders, scalers, and other learned preprocessing on training data only.
+- Do not use the test set for model selection or hyperparameter tuning.

@@ -1,0 +1,30 @@
+STEAM GAMES SUCCESS PREDICTION — HELD-OUT TEST EVALUATION
+==================================================================
+Test rows: 19,513
+Target: Success (0 = Not Success, 1 = Success)
+These metrics are from the held-out test set.
+
+TEST METRICS
+------------------------------------------------------------------
+Logistic Regression — Raw features: accuracy=0.7663, precision=0.5356, recall=0.5490, f1=0.5422, roc_auc=0.7498
+  Confusion matrix [[TN, FP], [FN, TP]]: [[12251, 2342], [2219, 2701]]
+Random Forest — Raw features: accuracy=0.8791, precision=0.8329, recall=0.6512, f1=0.7309, roc_auc=0.8918
+  Confusion matrix [[TN, FP], [FN, TP]]: [[13950, 643], [1716, 3204]]
+XGBoost — Raw features: accuracy=0.8804, precision=0.8678, recall=0.6203, f1=0.7235, roc_auc=0.8921
+  Confusion matrix [[TN, FP], [FN, TP]]: [[14128, 465], [1868, 3052]]
+Logistic Regression — Preprocessed features: accuracy=0.8284, precision=0.7084, recall=0.5427, f1=0.6146, roc_auc=0.8051
+  Confusion matrix [[TN, FP], [FN, TP]]: [[13494, 1099], [2250, 2670]]
+Random Forest — Preprocessed features: accuracy=0.8587, precision=0.7213, recall=0.7161, f1=0.7187, roc_auc=0.8894
+  Confusion matrix [[TN, FP], [FN, TP]]: [[13232, 1361], [1397, 3523]]
+XGBoost — Preprocessed features: accuracy=0.8815, precision=0.8538, recall=0.6396, f1=0.7314, roc_auc=0.8957
+  Confusion matrix [[TN, FP], [FN, TP]]: [[14054, 539], [1773, 3147]]
+
+HIGHEST TEST F1 (DESCRIPTIVE ONLY)
+------------------------------------------------------------------
+Model: XGBoost
+Experiment: Preprocessed features
+F1-score: 0.7314
+
+METHODOLOGY NOTE
+------------------------------------------------------------------
+Use validation metrics for model selection. Do not tune on this test set and then report it as an unbiased final estimate.

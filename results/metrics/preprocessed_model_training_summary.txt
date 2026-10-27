@@ -1,0 +1,20 @@
+STEAM GAMES SUCCESS PREDICTION — PREPROCESSED MODEL TRAINING
+====================================================================
+Input data: train_preprocessed.csv and validation_preprocessed.csv.
+Preprocessing was fitted on training data only by 06_preprocess_data.py.
+Number of transformed predictor columns: 415
+Feature names are sanitized for XGBoost compatibility; values are unchanged.
+Random seed: 42
+
+VALIDATION METRICS
+--------------------------------------------------------------------
+Logistic Regression: Accuracy=0.8258, Precision=0.6993, Recall=0.5418, F1=0.6105, ROC-AUC=0.8030
+Random Forest: Accuracy=0.8569, Precision=0.7167, Recall=0.7148, F1=0.7157, ROC-AUC=0.8856
+XGBoost: Accuracy=0.8791, Precision=0.8453, Recall=0.6367, F1=0.7263, ROC-AUC=0.8934
+
+NOTES
+--------------------------------------------------------------------
+- Validation data was used for evaluation; test data was not used here.
+- The same train/validation/test row splits are used as in the raw-feature experiment.
+- Compare these metrics with raw_model_validation_metrics.csv.
+Metrics CSV: results\metrics\preprocessed_model_validation_metrics.csv

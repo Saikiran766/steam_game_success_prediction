@@ -1,0 +1,21 @@
+
+1. INITIAL DATASET
+Rows: 125,855
+Columns: 39
+Completely duplicated rows removed: 0
+Missing AppID values found: 0
+Invalid AppID values removed: 0
+Duplicate AppID rows removed: 0
+Rows with missing/blank Name removed: 1
+Release dates that could not be parsed (reported, not removed): 0
+
+2. COLUMN HANDLING
+No columns were removed automatically.
+Ambiguous column data types were retained for explicit downstream inspection.
+
+3. CLEANING SUMMARY
+Rows before cleaning: 125,855
+Rows after cleaning: 125,854
+Rows removed overall: 1
+Columns retained: 39
+Output file: D:\Steam_Games_Success_Prediction\data\cleaned\steam_games_cleaned.csv

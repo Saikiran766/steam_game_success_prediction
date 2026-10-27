@@ -1,0 +1,32 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+
+# Dataset files
+data/raw/
+data/cleaned/
+data/processed/
+
+# Generated machine learning models
+results/models/
+*.joblib
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Power BI files (large reports)
+*.pbix
+
+# Optional generated charts and metrics
+# Uncomment these only if you do not want to share results
+# results/figures/
+# results/metrics/

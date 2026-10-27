@@ -1,0 +1,92 @@
+STEAM GAMES SUCCESS PREDICTION
+BEFORE-LAUNCH TEST SET EVALUATION
+================================================================
+Test rows: 19,513
+Success cases: 4,920
+Not Success cases: 14,593
+
+MODEL: Logistic Regression
+----------------------------------------------------------------
+Accuracy:  0.6953
+Precision: 0.4136
+Recall:    0.4988
+F1 Score:  0.4522
+ROC-AUC:   0.6635
+
+Confusion matrix (rows = actual, columns = predicted):
+[[11114  3479]
+ [ 2466  2454]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+ Not Success       0.82      0.76      0.79     14593
+     Success       0.41      0.50      0.45      4920
+
+    accuracy                           0.70     19513
+   macro avg       0.62      0.63      0.62     19513
+weighted avg       0.72      0.70      0.70     19513
+
+
+Confusion matrix image: D:\SK\FDS\Steam_Games_Success_Prediction\results\figures\prelaunch\logistic_regression_prelaunch_test_confusion_matrix.png
+
+MODEL: Random Forest
+----------------------------------------------------------------
+Accuracy:  0.6860
+Precision: 0.4073
+Recall:    0.5392
+F1 Score:  0.4641
+ROC-AUC:   0.6913
+
+Confusion matrix (rows = actual, columns = predicted):
+[[10732  3861]
+ [ 2267  2653]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+ Not Success       0.83      0.74      0.78     14593
+     Success       0.41      0.54      0.46      4920
+
+    accuracy                           0.69     19513
+   macro avg       0.62      0.64      0.62     19513
+weighted avg       0.72      0.69      0.70     19513
+
+
+Confusion matrix image: D:\SK\FDS\Steam_Games_Success_Prediction\results\figures\prelaunch\random_forest_prelaunch_test_confusion_matrix.png
+
+MODEL: XGBoost
+----------------------------------------------------------------
+Accuracy:  0.7730
+Precision: 0.6601
+Recall:    0.2053
+F1 Score:  0.3132
+ROC-AUC:   0.7024
+
+Confusion matrix (rows = actual, columns = predicted):
+[[14073   520]
+ [ 3910  1010]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+ Not Success       0.78      0.96      0.86     14593
+     Success       0.66      0.21      0.31      4920
+
+    accuracy                           0.77     19513
+   macro avg       0.72      0.58      0.59     19513
+weighted avg       0.75      0.77      0.73     19513
+
+
+Confusion matrix image: D:\SK\FDS\Steam_Games_Success_Prediction\results\figures\prelaunch\xgboost_prelaunch_test_confusion_matrix.png
+
+================================================================
+MODEL COMPARISON - RANKED BY ROC-AUC
+================================================================
+              Model  Accuracy  Precision   Recall  F1 Score  ROC-AUC
+            XGBoost  0.772972   0.660131 0.205285  0.313178 0.702432
+      Random Forest  0.685953   0.407277 0.539228  0.464055 0.691263
+Logistic Regression  0.695331   0.413619 0.498780  0.452225 0.663493
+
+The test set was used only for final evaluation.
+Use validation results for model selection and threshold tuning.

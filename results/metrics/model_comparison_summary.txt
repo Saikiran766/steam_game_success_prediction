@@ -1,0 +1,55 @@
+STEAM GAMES SUCCESS PREDICTION — MODEL COMPARISON
+==============================================================
+Source: validation metrics for raw-feature and preprocessed-feature experiments.
+The test set was not used for this comparison.
+
+METRICS BY MODEL AND EXPERIMENT
+--------------------------------------------------------------
+Logistic Regression
+  Raw features: Accuracy=0.7625, Precision=0.5281, Recall=0.5436, F1-score=0.5358, ROC-AUC=0.7457
+  Preprocessed features: Accuracy=0.8258, Precision=0.6993, Recall=0.5418, F1-score=0.6105, ROC-AUC=0.8030
+  Change after preprocessing (percentage points):
+    Accuracy: +6.32
+    Precision: +17.11
+    Recall: -0.18
+    F1-score: +7.48
+    ROC-AUC: +5.73
+
+Random Forest
+  Raw features: Accuracy=0.8799, Precision=0.8332, Recall=0.6548, F1-score=0.7333, ROC-AUC=0.8917
+  Preprocessed features: Accuracy=0.8569, Precision=0.7167, Recall=0.7148, F1-score=0.7157, ROC-AUC=0.8856
+  Change after preprocessing (percentage points):
+    Accuracy: -2.31
+    Precision: -11.65
+    Recall: +6.00
+    F1-score: -1.76
+    ROC-AUC: -0.61
+
+XGBoost
+  Raw features: Accuracy=0.8797, Precision=0.8635, Recall=0.6211, F1-score=0.7225, ROC-AUC=0.8914
+  Preprocessed features: Accuracy=0.8791, Precision=0.8453, Recall=0.6367, F1-score=0.7263, ROC-AUC=0.8934
+  Change after preprocessing (percentage points):
+    Accuracy: -0.07
+    Precision: -1.81
+    Recall: +1.57
+    F1-score: +0.39
+    ROC-AUC: +0.20
+
+BEST VALIDATION F1 RESULT
+--------------------------------------------------------------
+Model: Random Forest
+Experiment: Raw features
+F1-score: 0.7333
+ROC-AUC: 0.8917
+
+OUTPUTS
+--------------------------------------------------------------
+Comparison CSV: results\metrics\model_comparison.csv
+F1 chart: results\figures\model_comparison_f1.png
+ROC-AUC chart: results\figures\model_comparison_roc_auc.png
+Accuracy chart: results\figures\model_comparison_accuracy.png
+
+INTERPRETATION NOTE
+--------------------------------------------------------------
+These are validation results for model comparison, not final held-out test results.
+The raw-feature baseline uses minimal compatibility transformations; it is not completely unprocessed raw data.

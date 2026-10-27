@@ -1,0 +1,55 @@
+STEAM GAMES SUCCESS PREDICTION — FEATURE PREPARATION SUMMARY
+==================================================================
+Input file: data\cleaned\steam_games_targeted.csv
+Output file: data\processed\steam_games_features.csv
+
+DATASET SHAPE
+------------------------------------------------------------------
+Rows: 97,565
+Columns including target: 20
+Predictor columns: 19
+
+EXCLUDED COLUMNS
+------------------------------------------------------------------
+Columns present and excluded:
+- About the game
+- AppID
+- Categories
+- Developers
+- Estimated owners
+- Estimated owners lower bound
+- Full audio languages
+- Genres
+- Header image
+- Metacritic url
+- Movies
+- Name
+- Notes
+- Publishers
+- Release date
+- Screenshots
+- Support email
+- Support url
+- Supported languages
+- Tags
+- Website
+
+Expected exclusion columns not found in input:
+None
+
+TARGET DISTRIBUTION
+------------------------------------------------------------------
+Not Success (0): 72,967 (74.79%)
+Success (1): 24,598 (25.21%)
+
+MISSING VALUES
+------------------------------------------------------------------
+Total missing cells in retained dataset: 287,980
+Missing values are intentionally not imputed in this step.
+
+IMPORTANT METHODOLOGY NOTES
+------------------------------------------------------------------
+- The target column 'Success' is retained for later training/evaluation.
+- 'Estimated owners' and 'Estimated owners lower bound' are excluded to prevent target leakage.
+- Raw predictor values are retained; encoding, scaling, and imputation belong to preprocessing.
+- The same rows should be used for raw and preprocessed experiments.

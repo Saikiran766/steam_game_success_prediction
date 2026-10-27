@@ -1,0 +1,90 @@
+TUNED PRE-LAUNCH TEST SET EVALUATION
+======================================================================
+Test rows: 19,513
+Thresholds selected using validation data only.
+
+MODEL: Logistic Regression
+----------------------------------------------------------------------
+Selected threshold: 0.40
+Accuracy: 0.6207
+Precision: 0.3585
+Recall: 0.6388
+F1 Score: 0.4593
+Balanced Accuracy: 0.6267
+ROC-AUC: 0.6635
+TN=8969, FP=5624, FN=1777, TP=3143
+
+Classification report:
+              precision    recall  f1-score   support
+
+ Not Success       0.83      0.61      0.71     14593
+     Success       0.36      0.64      0.46      4920
+
+    accuracy                           0.62     19513
+   macro avg       0.60      0.63      0.58     19513
+weighted avg       0.71      0.62      0.65     19513
+
+
+Confusion matrix image: D:\SK\FDS\Steam_Games_Success_Prediction\results\figures\prelaunch\logistic_regression_tuned_prelaunch_test_confusion_matrix.png
+
+MODEL: Random Forest
+----------------------------------------------------------------------
+Selected threshold: 0.50
+Accuracy: 0.6860
+Precision: 0.4073
+Recall: 0.5392
+F1 Score: 0.4641
+Balanced Accuracy: 0.6373
+ROC-AUC: 0.6913
+TN=10732, FP=3861, FN=2267, TP=2653
+
+Classification report:
+              precision    recall  f1-score   support
+
+ Not Success       0.83      0.74      0.78     14593
+     Success       0.41      0.54      0.46      4920
+
+    accuracy                           0.69     19513
+   macro avg       0.62      0.64      0.62     19513
+weighted avg       0.72      0.69      0.70     19513
+
+
+Confusion matrix image: D:\SK\FDS\Steam_Games_Success_Prediction\results\figures\prelaunch\random_forest_tuned_prelaunch_test_confusion_matrix.png
+
+MODEL: XGBoost
+----------------------------------------------------------------------
+Selected threshold: 0.24
+Accuracy: 0.6657
+Precision: 0.3899
+Recall: 0.5772
+F1 Score: 0.4654
+Balanced Accuracy: 0.6364
+ROC-AUC: 0.7024
+TN=10149, FP=4444, FN=2080, TP=2840
+
+Classification report:
+              precision    recall  f1-score   support
+
+ Not Success       0.83      0.70      0.76     14593
+     Success       0.39      0.58      0.47      4920
+
+    accuracy                           0.67     19513
+   macro avg       0.61      0.64      0.61     19513
+weighted avg       0.72      0.67      0.68     19513
+
+
+Confusion matrix image: D:\SK\FDS\Steam_Games_Success_Prediction\results\figures\prelaunch\xgboost_tuned_prelaunch_test_confusion_matrix.png
+
+======================================================================
+TEST RESULTS AT VALIDATION-SELECTED THRESHOLDS
+======================================================================
+              Model  Threshold  Accuracy  Precision   Recall  F1 Score  Balanced Accuracy  ROC-AUC    TN   FP   FN   TP  Predicted Success Count
+            XGBoost       0.24  0.665659   0.389896 0.577236  0.465421           0.636353 0.702432 10149 4444 2080 2840                     7284
+      Random Forest       0.50  0.685953   0.407277 0.539228  0.464055           0.637324 0.691263 10732 3861 2267 2653                     6514
+Logistic Regression       0.40  0.620714   0.358503 0.638821  0.459268           0.626715 0.663493  8969 5624 1777 3143                     8767
+
+Interpretation notes:
+- Thresholds were selected before evaluating the test set.
+- Precision, recall, F1 and accuracy depend on the threshold.
+- ROC-AUC evaluates probability ranking and is threshold-independent.
+- Do not select new thresholds using these test results.

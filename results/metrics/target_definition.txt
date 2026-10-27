@@ -1,0 +1,36 @@
+STEAM GAMES SUCCESS PREDICTION — TARGET DEFINITION REPORT
+==============================================================
+Input file: data\cleaned\steam_games_cleaned.csv
+Output file: data\cleaned\steam_games_targeted.csv
+
+TARGET RULES
+--------------------------------------------------------------
+Release-date cutoff: before 2025-01-01
+Success: Estimated owners lower bound >= 20,000
+Not Success: Estimated owners lower bound < 20,000
+Estimated owners lower bound is parsed from the first number in the source range.
+
+ROW COUNTS
+--------------------------------------------------------------
+Rows before target filtering: 125,854
+Rows with invalid/unparseable release date: 0
+Rows released on or after cutoff: 28,289
+Rows with invalid/unparseable Estimated owners: 0
+Rows retained for modeling: 97,565
+Rows excluded in total: 28,289
+
+TARGET DISTRIBUTION
+--------------------------------------------------------------
+Success (1): 24,598 (25.21%)
+Not Success (0): 72,967 (74.79%)
+
+OUTPUT COLUMNS
+--------------------------------------------------------------
+Original columns are retained, plus:
+- Estimated owners lower bound
+- Success (target: 1 = Success, 0 = Not Success)
+
+IMPORTANT
+--------------------------------------------------------------
+Estimated owners is used to construct the target and must not be used as a model input.
+The raw dataset and cleaned input file were not modified.

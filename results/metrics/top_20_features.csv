@@ -1,0 +1,118 @@
+experiment,model,feature,importance,importance_method
+Preprocessed features,Logistic Regression,Score rank,25.334260591122284,Absolute coefficient
+Preprocessed features,Logistic Regression,Negative,24.38578201631866,Absolute coefficient
+Preprocessed features,Logistic Regression,"Reviews__'English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Polish', 'Portuguese - Brazil', 'Russian', 'Simplified Chinese', 'Traditional Chinese', 'Arabic'_",6.948852863006933,Absolute coefficient
+Preprocessed features,Logistic Regression,Peak CCU,4.410332657733173,Absolute coefficient
+Raw features,Logistic Regression,Score rank,2.164458600202883,Absolute coefficient
+Preprocessed features,Logistic Regression,Windows_hello@eroticgamesclub.com,2.1605018472160475,Absolute coefficient
+Preprocessed features,Logistic Regression,Windows_volensnolensgames@gmail.com,2.158022270985869,Absolute coefficient
+Preprocessed features,Logistic Regression,Windows_aldorlea@googlemail.com,2.105299416123716,Absolute coefficient
+Preprocessed features,Logistic Regression,Windows_info@epixrgames.com,2.0831944330104233,Absolute coefficient
+Preprocessed features,Logistic Regression,Average playtime forever_Nakedness. All characters appearing in this game are over 18 years of age.,1.9817771379691247,Absolute coefficient
+Preprocessed features,Logistic Regression,"Average playtime forever_Blood Effects, Violence",1.864185815748676,Absolute coefficient
+Preprocessed features,Logistic Regression,Windows_steam.support@artifexmundi.com,1.853944784104184,Absolute coefficient
+Preprocessed features,Logistic Regression,"Reviews__'English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Arabic', 'Bulgarian', 'Czech', 'Danish', 'Dutch', 'Finnish', 'Greek', 'Hungarian', 'Japanese', 'Korean', 'Norwegian', 'Polish', 'Portuguese - Brazil', 'Portuguese - Portugal', 'Romanian', 'Russian', 'Simplified Chinese', 'Spanish - Latin America', 'Swedish', 'Thai', 'Traditional Chinese', 'Turkish', 'Ukrainian', 'Vietnamese', 'Afrikaans', 'Albanian', 'Amharic', 'Armenian', 'Assamese', 'Azerbaijani', 'Bangla', 'Basque', 'Belarusian', 'Bosnian', 'Catalan', 'Cherokee', 'Croatian', 'Dari', 'Estonian', 'Filipino', 'Galician', 'Georgian', 'Gujarati', 'Hausa', 'Hebrew', 'Hindi', 'Icelandic', 'Igbo', 'Indonesian', 'Irish', K'iche', 'Kannada', 'Kazakh', 'Khmer', 'Kinyarwanda', 'Konkani', 'Kyrgyz', 'Latvian', 'Lithuanian', 'Luxembourgish', 'Macedonian', 'Malay', 'Malayalam', 'Maltese', 'Maori', 'Marathi', 'Mongolian', 'Nepali', 'Odia', 'Persian', 'Punjabi (Gurmukhi)', 'Punjabi (Shahmukhi)', 'Quechua', 'Scots', 'Serbian', 'Sindhi', 'Sinhala', 'Slovak', 'Slovenian', 'Sorani', 'Sotho', 'Swahili', 'Tajik', 'Tamil', 'Tatar', 'Telugu', 'Tigrinya', 'Tswana', 'Turkmen', 'Urdu', 'Uyghur', 'Uzbek', 'Valencian', 'Welsh', 'Wolof', 'Xhosa', 'Yoruba', 'Zulu'_",1.8445130436393007,Absolute coefficient
+Preprocessed features,Logistic Regression,Average playtime forever_Some scenes in the game will appear bare and sexually suggestive content that is not suitable for minors; Please decide whether to play or not.,1.839244160395904,Absolute coefficient
+Preprocessed features,Logistic Regression,Windows_info@kaguragames.com,1.832992669778031,Absolute coefficient
+Preprocessed features,Logistic Regression,"Reviews__'English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Arabic', 'Bulgarian', 'Czech', 'Danish', 'Dutch', 'Finnish', 'Greek', 'Hungarian', 'Indonesian', 'Japanese', 'Korean', 'Norwegian', 'Polish', 'Portuguese - Brazil', 'Portuguese - Portugal', 'Romanian', 'Russian', 'Simplified Chinese', 'Spanish - Latin America', 'Swedish', 'Thai', 'Traditional Chinese', 'Turkish', 'Ukrainian', 'Vietnamese', 'Afrikaans', 'Albanian', 'Amharic', 'Armenian', 'Assamese', 'Azerbaijani', 'Bangla', 'Basque', 'Belarusian', 'Bosnian', 'Catalan', 'Cherokee', 'Croatian', 'Dari', 'Estonian', 'Filipino', 'Galician', 'Georgian', 'Gujarati', 'Hausa', 'Hebrew', 'Hindi', 'Icelandic', 'Igbo', 'Irish', K'iche', 'Kannada', 'Kazakh', 'Khmer', 'Kinyarwanda', 'Konkani', 'Kyrgyz', 'Latvian', 'Lithuanian', 'Luxembourgish', 'Macedonian', 'Malay', 'Malayalam', 'Maltese', 'Maori', 'Marathi', 'Mongolian', 'Nepali', 'Odia', 'Persian', 'Punjabi (Gurmukhi)', 'Punjabi (Shahmukhi)', 'Quechua', 'Scots', 'Serbian', 'Sindhi', 'Sinhala', 'Slovak', 'Slovenian', 'Sorani', 'Sotho', 'Swahili', 'Tajik', 'Tamil', 'Tatar', 'Telugu', 'Tigrinya', 'Tswana', 'Turkmen', 'Urdu', 'Uyghur', 'Uzbek', 'Valencian', 'Welsh', 'Wolof', 'Xhosa', 'Yoruba', 'Zulu'_",1.8165270585823794,Absolute coefficient
+Preprocessed features,Logistic Regression,"Reviews__'English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Danish', 'Ukrainian', 'Russian', 'Bulgarian', 'Hungarian', 'Indonesian', 'Turkish', 'Greek', 'Norwegian', 'Czech', 'Japanese', 'Polish', 'Thai', 'Swedish', 'Simplified Chinese', 'Traditional Chinese', 'Romanian', 'Finnish', 'Dutch', 'Portuguese - Brazil', 'Portuguese - Portugal', 'Spanish - Latin America', 'Vietnamese', 'Arabic', 'Korean', 'Uzbek', 'Urdu', 'Armenian', 'Igbo', 'Sindhi', 'Sinhala', 'Croatian', 'Icelandic', 'Cherokee', 'Galician', 'Catalan', 'Afrikaans', 'Kannada', 'Luxembourgish', 'Hindi', 'Gujarati', 'Kyrgyz', 'Kazakh', 'Turkmen', K'iche', 'Kinyarwanda', 'Tajik', 'Serbian', 'Odia', 'Welsh', 'Konkani', 'Bangla', 'Nepali', 'Basque', 'Hebrew', 'Latvian', 'Tigrinya', 'Slovak', 'Slovenian', 'Swahili', 'Punjabi (Gurmukhi)', 'Punjabi (Shahmukhi)', 'Georgian', 'Maori', 'Wolof', 'Bosnian', 'Persian', 'Telugu', 'Tamil', 'Irish', 'Estonian', 'Valencian', 'Belarusian', 'Quechua', 'Zulu', 'Xhosa', 'Lithuanian', 'Sotho', 'Sorani', 'Yoruba', 'Uyghur', 'Scots', 'Tswana', 'Filipino', 'Mongolian', 'Hausa', 'Dari', 'Azerbaijani', 'Amharic', 'Albanian', 'Assamese', 'Tatar', 'Macedonian', 'Marathi', 'Malayalam', 'Malay', 'Maltese', 'Khmer'_",1.7578200104675834,Absolute coefficient
+Preprocessed features,Logistic Regression,Windows_customercare@individualsoftware.com,1.7124359622253116,Absolute coefficient
+Preprocessed features,Logistic Regression,User score_https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ftag=MCD-06-10aaa1f,1.6760447685416233,Absolute coefficient
+Preprocessed features,Logistic Regression,"Average playtime forever_This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Gore.",1.673225916661716,Absolute coefficient
+Preprocessed features,Logistic Regression,Windows_support@mangopartygames.com,1.6666293581427556,Absolute coefficient
+Raw features,Logistic Regression,Metacritic score,1.4171841053330598,Absolute coefficient
+Raw features,Logistic Regression,Achievements,1.3965683452798612,Absolute coefficient
+Raw features,Logistic Regression,Recommendations,1.268733085091567,Absolute coefficient
+Raw features,Logistic Regression,User score,1.191933634672904,Absolute coefficient
+Raw features,Logistic Regression,Negative,0.49787669431284043,Absolute coefficient
+Raw features,XGBoost,Metacritic score,0.33983471989631653,Built-in feature importance
+Raw features,XGBoost,User score,0.33405908942222595,Built-in feature importance
+Raw features,Logistic Regression,DiscountDLC count,0.31589966622358273,Absolute coefficient
+Raw features,Logistic Regression,Peak CCU,0.29604329734844115,Absolute coefficient
+Raw features,Random Forest,Metacritic score,0.248905012068297,Built-in feature importance
+Preprocessed features,Random Forest,Score rank,0.24625052877271109,Built-in feature importance
+Raw features,Random Forest,User score,0.22872005508958743,Built-in feature importance
+Preprocessed features,Random Forest,Negative,0.20852864081325212,Built-in feature importance
+Preprocessed features,XGBoost,Score rank,0.207257479429245,Built-in feature importance
+Preprocessed features,Random Forest,Average playtime two weeks,0.16641936027525867,Built-in feature importance
+Raw features,Logistic Regression,Windows,0.14779122763157018,Absolute coefficient
+Raw features,Logistic Regression,Required age,0.1406947320747418,Absolute coefficient
+Raw features,Logistic Regression,Price,0.12783164161619037,Absolute coefficient
+Preprocessed features,Random Forest,Median playtime two weeks,0.11801070283140622,Built-in feature importance
+Raw features,Random Forest,Score rank,0.09545852189299811,Built-in feature importance
+Raw features,Random Forest,Recommendations,0.08526614377885808,Built-in feature importance
+Raw features,Random Forest,Average playtime two weeks,0.08365751901173274,Built-in feature importance
+Preprocessed features,XGBoost,Negative,0.07812700420618057,Built-in feature importance
+Preprocessed features,Random Forest,Peak CCU,0.06922165433069026,Built-in feature importance
+Raw features,Random Forest,Price,0.06807352289294148,Built-in feature importance
+Raw features,Logistic Regression,Mac,0.05227592713665601,Absolute coefficient
+Raw features,Random Forest,Negative,0.0488570740708395,Built-in feature importance
+Raw features,Logistic Regression,Reviews,0.04784505724752698,Absolute coefficient
+Raw features,XGBoost,Price,0.03881623223423958,Built-in feature importance
+Raw features,Random Forest,Peak CCU,0.03865839245183374,Built-in feature importance
+Preprocessed features,XGBoost,"Reviews__'English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Polish', 'Portuguese - Brazil', 'Russian', 'Simplified Chinese', 'Traditional Chinese', 'Arabic'_",0.035575687885284424,Built-in feature importance
+Raw features,XGBoost,Recommendations,0.034100089222192764,Built-in feature importance
+Raw features,XGBoost,Score rank,0.03274254873394966,Built-in feature importance
+Preprocessed features,Random Forest,Price,0.03227886133441861,Built-in feature importance
+Raw features,Random Forest,DiscountDLC count,0.028689919031477964,Built-in feature importance
+Raw features,Random Forest,Average playtime forever,0.02676576470952819,Built-in feature importance
+Preprocessed features,Random Forest,Recommendations,0.026597992568937204,Built-in feature importance
+Raw features,XGBoost,Median playtime forever,0.02438219264149666,Built-in feature importance
+Raw features,XGBoost,Median playtime two weeks,0.022959275171160698,Built-in feature importance
+Raw features,Random Forest,Median playtime two weeks,0.02219316072101777,Built-in feature importance
+Preprocessed features,Random Forest,DiscountDLC count,0.020011495345639643,Built-in feature importance
+Raw features,XGBoost,Mac,0.01983349211513996,Built-in feature importance
+Raw features,XGBoost,Negative,0.019608300179243088,Built-in feature importance
+Raw features,XGBoost,Peak CCU,0.019421923905611038,Built-in feature importance
+Raw features,XGBoost,DiscountDLC count,0.01922953873872757,Built-in feature importance
+Raw features,XGBoost,Average playtime forever,0.01887696422636509,Built-in feature importance
+Raw features,XGBoost,Windows,0.01872040145099163,Built-in feature importance
+Raw features,Logistic Regression,Positive,0.018613927524369033,Absolute coefficient
+Raw features,XGBoost,Average playtime two weeks,0.018190918490290642,Built-in feature importance
+Preprocessed features,Random Forest,User score_https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ftag=MCD-06-10aaa1f,0.016107831708554565,Built-in feature importance
+Preprocessed features,Random Forest,User score_infrequent_sklearn,0.015878225425997455,Built-in feature importance
+Raw features,XGBoost,Required age,0.01517861895263195,Built-in feature importance
+Raw features,Logistic Regression,Linux,0.014794148126127862,Absolute coefficient
+Preprocessed features,XGBoost,Windows_support@dominigames.com,0.014267927967011929,Built-in feature importance
+Preprocessed features,XGBoost,Windows_aldorlea@googlemail.com,0.014171714894473553,Built-in feature importance
+Preprocessed features,Random Forest,Median playtime forever,0.014129207924318451,Built-in feature importance
+Preprocessed features,XGBoost,Price,0.01399196032434702,Built-in feature importance
+Preprocessed features,XGBoost,User score_https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ftag=MCD-06-10aaa1f,0.013746054843068123,Built-in feature importance
+Raw features,XGBoost,Linux,0.013082911260426044,Built-in feature importance
+Preprocessed features,XGBoost,"Average playtime forever_This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content",0.012248593382537365,Built-in feature importance
+Preprocessed features,XGBoost,Median playtime two weeks,0.011387518607079983,Built-in feature importance
+Preprocessed features,XGBoost,Average playtime forever_infrequent_sklearn,0.01098551508039236,Built-in feature importance
+Raw features,XGBoost,Achievements,0.010962623171508312,Built-in feature importance
+Preprocessed features,XGBoost,Reviews__'Simplified Chinese'_,0.009546047076582909,Built-in feature importance
+Preprocessed features,XGBoost,Average playtime two weeks,0.009142391383647919,Built-in feature importance
+Preprocessed features,XGBoost,Windows_support@bigfishgames.zendesk.com,0.009105571545660496,Built-in feature importance
+Preprocessed features,XGBoost,Windows_info@kaguragames.com,0.009068118408322334,Built-in feature importance
+Preprocessed features,XGBoost,Windows_support@microids.com,0.008933590725064278,Built-in feature importance
+Preprocessed features,XGBoost,"Reviews__'Japanese', 'Korean'_",0.007962354458868504,Built-in feature importance
+Preprocessed features,XGBoost,Reviews__'Spanish - Spain'_,0.007874236442148685,Built-in feature importance
+Preprocessed features,XGBoost,Windows_infrequent_sklearn,0.007714194245636463,Built-in feature importance
+Preprocessed features,XGBoost,Reviews__'Japanese'_,0.007711291313171387,Built-in feature importance
+Preprocessed features,XGBoost,"Reviews__'English', 'German'_",0.007537475787103176,Built-in feature importance
+Raw features,Random Forest,Windows,0.007059423974201603,Built-in feature importance
+Preprocessed features,Random Forest,Reviews___,0.006107970295663345,Built-in feature importance
+Preprocessed features,Random Forest,Linux,0.006053930036245107,Built-in feature importance
+Raw features,Random Forest,Achievements,0.005879038542327442,Built-in feature importance
+Raw features,Random Forest,Mac,0.005603904522286411,Built-in feature importance
+Raw features,Random Forest,Median playtime forever,0.005494428446479506,Built-in feature importance
+Preprocessed features,Random Forest,Windows_infrequent_sklearn,0.004032271163799656,Built-in feature importance
+Preprocessed features,Random Forest,Windows_info@bigfishgames.com,0.003962591969438018,Built-in feature importance
+Preprocessed features,Random Forest,"Average playtime forever_This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content",0.00349067306802731,Built-in feature importance
+Preprocessed features,Random Forest,Metacritic score,0.0033140153471446403,Built-in feature importance
+Preprocessed features,Random Forest,Average playtime forever_infrequent_sklearn,0.0031909862536081313,Built-in feature importance
+Preprocessed features,Random Forest,Reviews_infrequent_sklearn,0.002785988231878635,Built-in feature importance
+Preprocessed features,Random Forest,Required age,0.0023994604722613285,Built-in feature importance
+Raw features,Random Forest,Required age,0.0006798565870049898,Built-in feature importance
+Raw features,Logistic Regression,Median playtime forever,0.00047142413890794804,Absolute coefficient
+Raw features,Logistic Regression,Average playtime forever,0.00010676807370791632,Absolute coefficient
+Raw features,Logistic Regression,Median playtime two weeks,5.043961866418341e-05,Absolute coefficient
+Raw features,Random Forest,Reviews,1.8789279324230926e-05,Built-in feature importance
+Raw features,Random Forest,Linux,1.755795655506125e-05,Built-in feature importance
+Raw features,Logistic Regression,Average playtime two weeks,1.1418795119848199e-05,Absolute coefficient
+Raw features,Random Forest,Positive,1.9149727085861108e-06,Built-in feature importance
+Raw features,XGBoost,Reviews,0.0,Built-in feature importance
+Raw features,XGBoost,Positive,0.0,Built-in feature importance
